@@ -7,6 +7,7 @@ Influxdb
 Installing
 ----------
 uses ports 8086
+
 `download instructions`_ 
 
 .. _download instructions: https://docs.influxdata.com/influxdb/v1.7/introduction/installation/
@@ -14,6 +15,22 @@ uses ports 8086
 .. code-block:: bash
 
     brew install influxdb
+
+Getting Started
+---------------
+Start the service and open the influx shell
+
+.. code-block:: bash
+
+    $service influxdb start
+    $influx
+    >
+
+Using sample data:
+
+`instructions`_ 
+
+.. _instructions: https://docs.influxdata.com/influxdb/v1.7/query_language/data_download/
 
 
 Grafana Local
@@ -42,3 +59,14 @@ to check which services are running use:
 Adding plugins
 --------------
 
+.. code-block:: bash
+
+    grafana-cli plugins install grafana-piechart-panel
+
+
+Fun Settings in Grafana
+-----------------------
+
+* setting the "relative time" changes the time range for that single graph
+* 
+* 

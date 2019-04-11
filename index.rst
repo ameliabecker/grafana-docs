@@ -6,8 +6,6 @@
 Welcome to Grafana docs's documentation!
 ========================================
 
-test webhook
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

@@ -1,6 +1,6 @@
-*************
-Using Grafana
-*************
+*********************
+Using Grafana Locally
+*********************
 On launch
 =========
 .. code-block:: bash
